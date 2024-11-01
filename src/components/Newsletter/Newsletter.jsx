@@ -11,7 +11,7 @@ const Newsletter = () => {
                 <p className="md:text-xl text-base text-center text-gray-500 font-medium md:px-0 px-4">Get the latest updates and news right in your inbox!</p>
 
                 <form className="flex gap-3 form-action md:ml-0 ml-4">
-                <input type="text" placeholder="Enter your email" className="input input-bordered rounded-xl border-gray-200 lg:w-[430px] md:w-96 w-3/5 text-gray-500 p-5" required/>
+                <input type="email" placeholder="Enter your email" className="input input-bordered rounded-xl border-gray-200 lg:w-[430px] md:w-96 w-3/5 text-gray-500 p-5" required/>
                 <button className="btn md:px-7 px-4 shadow-sm bg-gradient-to-r from-red-300 to-orange-300 font-bold border-none" type="submit">Subscribe</button>
                 </form>
             </div>

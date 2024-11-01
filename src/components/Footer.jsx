@@ -31,10 +31,10 @@ const Footer = () => {
                     </label>
                     <div className="join rounded-xl">
                         <input
-                        type="text"
+                        type="email"
                         placeholder="Enter your email"
                         className="input input-bordered join-item" required/>
-                        <button className="btn bg-gradient-to-l from-red-300 to-orange-300 join-item px-6 font-bold border-none">Subscribe</button>
+                        <button className="btn bg-gradient-to-l from-red-300 to-orange-300 join-item md:px-6 font-bold border-none">Subscribe</button>
                     </div>
                     </fieldset>
                 </form>
